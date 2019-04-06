@@ -60,7 +60,7 @@ sheet["28기3분기_3개월"]=sheet["28기3분기_3개월"].str.split(")").str[0
 sheet.loc[sheet["28기3분기_3개월"]=="","28기3분기_3개월"]="0"
 sheet["28기3분기_3개월"]=sheet["28기3분기_3개월"].astype(int)
 
-
+ #test here
 print(sheet["28기3분기_3개월"].iloc[0])
 #데이터 프레임 잘 불러왔는지 확인 empty 면 데이터 안 긁힌것.??
 
